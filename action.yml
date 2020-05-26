@@ -1,0 +1,17 @@
+name: 'convert_action'
+description: 'Convert string value to number'
+inputs:
+  value:
+    description: 'string value need to be converted'
+    required: true
+    default: ''
+  type:
+    description: 'expected result type: int or float'
+    required: true
+    default: 'int'
+outputs:
+  result:
+    description: 'Result after convert'
+runs:
+  using: 'node12'
+  main: 'index.js'
