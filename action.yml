@@ -5,6 +5,10 @@ inputs:
     description: 'string value need to be converted'
     required: true
     default: ''
+  addition:
+    description: 'addition amount'
+    required: false
+    default: '0'
   type:
     description: 'expected result type: int or float'
     required: true
